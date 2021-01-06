@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Filippo Santocanale, in Parigi, 14 maggio 1835 </title>
+				<author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Responsabilità di</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#DS">Daria Spampinato</name>
+					<name ref="#EC">Erica Capizzi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Trascrizione di</resp>
+					<name ref="#GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+
+			<editionStmt>
+				<edition>Edizione digitale
+					<date when="2020-12">Dicembre 2020</date>
+				</edition>
+				<respStmt>
+					<resp>Progetto edizione digitale coordinato da</resp>
+					<name ref="#FA">Francesca Andreozzi</name>
+					<name ref="#AZ">Angelica Zaccheria</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codifica di</resp>
+					<name ref="#FA">Francesca Andreozzi</name>
+					<name ref="#AZ">Angelica Zaccheria</name>
+				</respStmt>
+			</editionStmt>
+
+			<publicationStmt>
+				<publisher>Fondazione Bellini</publisher>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+			</publicationStmt>
+
+			<sourceDesc>
+				<bibl source="#Seminara2017" resp="#GS" ana="118">
+							<citedRange unit="page" from="502" to="503">502</citedRange>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country>Italia</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						<idno type="inventory">LL1.25</idno>
+						<altIdentifier><idno type="collocation">in esposizione Casa Natale, sala B, vetrina 5, ripiano 1, V</idno></altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a
+								<persName ref="#FS" role="librettist">Filippo Santocanale</persName>, in
+								<placeName ref="#PA">Parigi</placeName>,
+								<date when="1834-06-26">14 maggio 1835</date>
+							</title>
+							<textLang mainLang="it">italiano di inizio Ottocento</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>Carta sottile.</material>
+									<stamp>
+						 			Nel retro è presente un sigillo in ceralacca rossa.
+									</stamp>
+									<p>Lettera in buone condizioni fisiche, composta da un solo folio, piegato su più parti con testo presente sul retro. La lettera presenta uno strappo sul lato. Il folio presenta fronte e retro, con l'indirizzo nel verso e il testo nel recto.</p>
+								</support>
+								<extent>
+									<measure type="folio">1</measure>
+									<dimensions unit="mm">
+										<height>261</height>
+										<width>210</width>
+									</dimensions>
+								</extent>
+								<foliation>
+									<p>Il folio presenta quattro piegature, che lo suddivide in cinque sezioni.</p>
+								</foliation>
+								<condition>
+									<p>Lettera in buone condizioni fisiche.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote xml:id="h1" facs="LL1.25_hotspot_1fv_01"><p>Scrittura a mano libera leggibile. Una annotazione è probabilmente dovuta ad un catalogatore e presenta il numero 12 sul fronte verso del folio.</p>
+						  </handNote>
+						</handDesc>
+						<sealDesc>
+							<seal>
+								<p>E'presente un sigillo di ceralacca rossa, sul margine detro del folio. Sono presenti cinque timbri ed alcune macchie sul fronte verso del folio.</p>
+							</seal>
+						</sealDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="#Paris" type="postmark">Parigi</placeName>
+					<date when="1835-05-14">14 maggio 1835</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#FS">Filippo Santocanale</persName>
+					<placeName ref="#NA" type="receiving">Napoli</placeName>
+					<date when="1835-05-30" type="postmark">30 maggio 1835</date>
+				</correspAction >
+				<correspContext>
+					<p>Nessun contesto di riferimento</p>
+				</correspContext>
+			</correspDesc>
+
+			<textClass>
+				<keywords scheme="http://thes.bncf.firenze.sbn.it">
+					<term resp="#GS"> lettera
+					</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it">italiano di inizio Ottocento</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+
+
+	<facsimile>
+
+		<surface n="1" xml:id="LL1.25_folio_1fr">
+			<graphic url='LL1.25_0001.jpg' width='2634px' height='3551px' /> <!-- FRONTE RECTO -->
+			<zone ulx="250" uly="282" lrx="2433" lry="264" rendition="Line" xml:id="LL1.25_line_1fr_1"/>
+			<zone ulx="153" uly="354" lrx="2510" lry="335" rendition="Line" xml:id="LL1.25_line_1fr_2"/>
+			<zone ulx="130" uly="428" lrx="2520" lry="386" rendition="Line" xml:id="LL1.25_line_1fr_3"/>
+			<zone ulx="115" uly="508" lrx="2510" lry="454" rendition="Line" xml:id="LL1.25_line_1fr_4"/>
+			<zone ulx="113" uly="580" lrx="2515" lry="502" rendition="Line" xml:id="LL1.25_line_1fr_5"/>
+			<zone ulx="103" uly="650" lrx="2433" lry="572" rendition="Line" xml:id="LL1.25_line_1fr_6"/>
+			<zone ulx="101" uly="753" lrx="2515" lry="631" rendition="Line" xml:id="LL1.25_line_1fr_7"/>
+			<zone ulx="79" uly="835" lrx="2517" lry="735" rendition="Line" xml:id="LL1.25_line_1fr_8"/>
+			<zone ulx="81" uly="929" lrx="2521" lry="815" rendition="Line" xml:id="LL1.25_line_1fr_9"/>
+			<zone ulx="95" uly="1009" lrx="2521" lry="891" rendition="Line" xml:id="LL1.25_line_1fr_10"/>
+			<zone ulx="83" uly="1083" lrx="2499" lry="963" rendition="Line" xml:id="LL1.25_line_1fr_11"/>
+			<zone ulx="75" uly="1160" lrx="2517" lry="1037" rendition="Line" xml:id="LL1.25_line_1fr_12"/>
+			<zone ulx="77" uly="1257" lrx="2511" lry="1137" rendition="Line" xml:id="LL1.25_line_1fr_13"/>
+			<zone ulx="61" uly="1349" lrx="2517" lry="1253" rendition="Line" xml:id="LL1.25_line_1fr_14"/>
+			<zone ulx="67" uly="1435" lrx="2503" lry="1333" rendition="Line" xml:id="LL1.25_line_1fr_15"/>
+			<zone ulx="63" uly="1526" lrx="2500" lry="1410" rendition="Line" xml:id="LL1.25_line_1fr_16"/>
+			<zone ulx="60" uly="1606" lrx="2189" lry="1504" rendition="Line" xml:id="LL1.25_line_1fr_17"/>
+			<zone ulx="69" uly="1696" lrx="2151" lry="1638" rendition="Line" xml:id="LL1.25_line_1fr_18"/>
+      <zone ulx="79" uly="1800" lrx="2485" lry="1784" rendition="Line" xml:id="LL1.25_line_1fr_19"/>
+			<zone ulx="95" uly="2004" lrx="2511" lry="1892" rendition="Line" xml:id="LL1.25_line_1fr_20"/>
+			<zone ulx="91" uly="2118" lrx="2513" lry="2028" rendition="Line" xml:id="LL1.25_line_1fr_21"/>
+			<zone ulx="89" uly="2209" lrx="2513" lry="2125" rendition="Line" xml:id="LL1.25_line_1fr_22"/>
+			<zone ulx="85" uly="2313" lrx="2471" lry="2227" rendition="Line" xml:id="LL1.25_line_1fr_23"/>
+			<zone ulx="77" uly="2409" lrx="2487" lry="2335" rendition="Line" xml:id="LL1.25_line_1fr_24"/>
+			<zone ulx="79" uly="2495" lrx="2497" lry="2427" rendition="Line" xml:id="LL1.25_line_1fr_25"/>
+			<zone ulx="71" uly="2583" lrx="2469" lry="2531" rendition="Line" xml:id="LL1.25_line_1fr_26"/>
+			<zone ulx="101" uly="2683" lrx="2511" lry="2617" rendition="Line" xml:id="LL1.25_line_1fr_27"/>
+			<zone ulx="107" uly="2782" lrx="2515" lry="2746" rendition="Line" xml:id="LL1.25_line_1fr_28"/>
+			<zone ulx="129" uly="2882" lrx="2445" lry="2860" rendition="Line" xml:id="LL1.25_line_1fr_29"/>
+			<zone ulx="109" uly="3008" lrx="2507" lry="2978" rendition="Line" xml:id="LL1.25_line_1fr_30"/>
+      <zone ulx="117" uly="3122" lrx="2521" lry="3070" rendition="Line" xml:id="LL1.25_line_1fr_31"/>
+			<zone ulx="155" uly="3244" lrx="2415" lry="3168" rendition="Line" xml:id="LL1.25_line_1fr_32"/>
+      <zone ulx="329" uly="3274" lrx="1117" lry="3248" rendition="Line" xml:id="LL1.25_line_1fr_33"/>
+			<zone ulx="481" uly="3308" lrx="1337" lry="3292" rendition="Line" xml:id="LL1.25_line_1fr_34"/>
+      <zone ulx="1427" uly="3262" lrx="1871" lry="3254" rendition="Line" xml:id="LL1.25_line_1fr_35"/>
+			<zone ulx="1953" uly="3270" lrx="2433" lry="3252" rendition="Line" xml:id="LL1.25_line_1fr_36"/>
+    	<!--filigrana--> <!-- non l'abbiamo inserita la filigrana-->
+			<zone ulx="37" uly="692" lrx="274" lry="1304" rendition="HotSpot" xml:id="LL1.25_hotspot_1fr_01"/>
+		</surface>
+
+		<surface n="2" xml:id="LL1.25_folio_1fv"> <!-- FRONTE VERSO -->
+			<graphic url='LL1.25_0002.jpeg' width='2634px' height='3514px' />
+
+			<!-- segno particolare 12 -->
+			<zone ulx="955" uly="1836" lrx="1103" lry="1848" rendition="Line" xml:id="LL1.25_hotspot_1fv_01"/>
+			<!-- zona con l'indirizzo del destinario -->
+			<zone ulx="1231" uly="2247" lrx="1159" lry="1659" rendition="Line" xml:id="LL1.25_line_1fv_02"/>
+			<zone ulx="1457" uly="2337" lrx="1465" lry="1809" rendition="Line" xml:id="LL1.25_line_1fv_03"/>
+			<zone ulx="1575" uly="2315" lrx="1551" lry="963" rendition="Line" xml:id="LL1.25_line_1fv_04"/>
+			<zone ulx="1765" uly="1806" lrx="1763" lry="1214" rendition="Line" xml:id="LL1.25_line_1fv_05"/>
+
+
+			<!-- timbri -->
+			<zone ulx="445" uly="2089" lrx="835" lry="2099" rendition="Line" xml:id="LL1.25_hotspot_1fv_06"/>
+			<zone ulx="1031" uly="1275" lrx="1287" lry="1275" rendition="Line" xml:id="LL1.25_line_1fv_07"/>
+			<zone ulx="1139" uly="1605" lrx="1507" lry="1599" rendition="Line" xml:id="LL1.25_line_1fv_08"/>
+			<zone ulx="1033" uly="1951" lrx="1087" lry="2325" rendition="Line" xml:id="LL1.25_line_1fv_09"/>
+			<zone ulx="965" uly="2821" lrx="1399" lry="2799" rendition="Line" xml:id="LL1.25_line_1fv_10"/>
+
+
+			<!-- strappo -->
+			<zone ulx="159" uly="1425" lrx="155" lry="1655" rendition="Line" xml:id="LL1.25_hotspot_1fv_11"/>
+			<!-- sigillo cera lacca -->
+			<zone ulx="1827" uly="1542" lrx="2045" lry="1540" rendition="Line" xml:id="LL1.25_hotspot_1fv_12"/>
+			<!-- segno grafico -->
+			<zone ulx="1603" uly="2009" lrx="1780" lry="2033" rendition="Line" xml:id="LL1.25_hotspot_1fv_13"/>
+		</surface>
+
+	</facsimile>
+	<text type="letter" xml:id="LL1.25" subtype="manuscript" n="LL1.25">
+
+		<front> 	<!-- FRONTE VERSO -->
+			<pb n="4" xml:id="LL1.25_fol_1fv_front" facs="#LL1.25_folio_1fv"/>
+			<div type="envelope">
+
+				<div type="sent">
+					<ab xml:id="LL1.25_hs_1fv_05" facs="#LL1.25_hotspot_1fv_05" copyOf="#LL1.25_hs_1fv_05_body">
+						<stamp type="postmark">						<!-- timbro del mittente con nome del luogo -->
+							<mentioned>
+								<placeName ref="#Paris">PARIGI</placeName>
+							</mentioned>
+						</stamp>
+					</ab>
+				</div>
+
+				<div type="destination">
+					<ab type="receiver">
+						<address>						<!--  informazioni del destinatario -->
+							<lb xml:id="LL1.25_lb_1fv_01" n="1" facs="#LL1.25_line_1fv_01"/>
+							<addrLine>A <foreign xml:lang="fr">Philippe Santocanale </foreign> <persName ref="#FS"></persName>
+							</addrLine>
+							<lb xml:id="LL1.25_lb_1fv_02" n="2" facs="#LL1.25_line_1fv_02"/>
+							<placeName ref="#NA">Napoli</placeName>
+						</address>
+					</ab>
+				</div>
+			</div>
+		</front>
+		<body xml:lang="it">
+			<div type="fronte-recto">
+				<pb n="1" xml:id="LL.25_fol_1f" facs="LL1.25_folio_1f"/>
+				<div type="letter-body" n="t_01">
+
+					<salute>
+
+						<s type="sentence" n="s_01">
+							<lb xml:id="LL1.25_lb_1f_1" n="1" facs="#LL1.25_line_1fr_1"/>
+							Mio caro <persName ref="#FS">amico</persName> -
+						</s>
+					</salute>
+					<ab>
+					  <s type="sentence" n="s_02">
+							Vi ringrazio per la tanta pena che vi siete data a riguardo
+							<lb xml:id="LL1.25_lb_1f_2" n="2" facs="#LL1.25_line_1fr_2"/>
+							allo <term subtype="music-term" ref="#spartito" key="lesmu">spartito</term> de' <rs type="work">Puritani</rs><pc type="dot">.</pc>
+						</s>
+						<s type="sentence" n="s_03">
+					   La lettera della Deputazione è in regola<pc type="comma">,</pc> e come io vi sug
+						 <lb xml:id="LL1.25_lb_1f_3" n="3" facs="#LL1.25_line_1fr_3"/>
+							gerii<pc type="dot">.</pc>
+						</s>
+						<s type="sentence" n="s_04">
+							Si desidera che io faccia cambiare qualche verso non ammissibile dalla vostra
+							<lb xml:id="LL1.25_lb_1f_4" n="4" facs="#LL1.25_line_1fr_4"/>
+							<term subtype="music-term" ref="#censura" key="lesmu">censura</term> <pc type="comma">,</pc> dall'istesso poeta del <term subtype="music-term" ref="#libretto" key="lesmu">libro</term><pc type="colon">:</pc> egli si trova in questo momento a <placeName ref="#London">Londra</placeName> <pc type="comma">,</pc> e
+							<lb xml:id="LL1.25_lb_1f_5" n="5" facs="#LL1.25_line_1fr_5"/>
+							quindi m'è impossibile per ora contentarli;
+						</s>
+						<s type="sentence" n="s_05">
+							voi frattanto fategli sapere<pc type="comma">,</pc> che
+							<lb xml:id="LL1.25_lb_1f_6" n="6" facs="#LL1.25_line_1fr_6"/>
+						  la sola fine del <term subtype="music-term" ref="#duetto">duetto</term> dei due <term subtype="music-term" ref="#basso" key="lesmu">bassi</term> nel 2:°<term subtype="music-term" xml:lang="it" xml:id="atto" key="lesmu">atto</term><pc type="comma">,</pc> potrà incontrare
+							<lb xml:id="LL1.25_lb_1f_7" n="7" facs="#LL1.25_line_1fr_7"/>
+							qualche difficoltà pei versi = Suoni la tromba e intrepido – io pugnerò da
+							<lb xml:id="LL1.25_lb_1f_8" n="8" facs="#LL1.25_line_1fr_8"/>
+							da forte – bello è incontrar la morte – gridando libertà!<ptr target="#LL1_25_note3"/>  – questi soli quattro
+							<lb xml:id="LL1.25_lb_1f_9" n="9" facs="#LL1.25_line_1fr_9"/>
+							versi cambiati<pc type="comma">,</pc> tutta l’<term subtype="music-term" ref="#opera" key="lesmu">opera </term> sarà ricevuta ed approvata<pc type="comma">,</pc> perché non esiste più
+							<lb xml:id="LL1.25_lb_1f_10" n="10" facs="#LL1.25_line_1fr_10"/>
+							una sola parola che possa incontrar difficoltà di censori –
+						</s>
+						<s type="question" n="s_06">
+						  Come<pc type="comma">,</pc> voi venite
+							<lb xml:id="LL1.25_lb_1f_11" n="11" facs="#LL1.25_line_1fr_11"/>
+							a <placeName ref="#MI">Milano</placeName><pc type="comma">,</pc> e non potete fare una corsa sino a <placeName ref="#Paris">Parigi</placeName>?
+						</s>
+						<s type="sentence" n="s_07">
+							Tal risoluzione non è
+							<lb xml:id="LL1.25_lb_1f_12" n="12" facs="#LL1.25_line_1fr_12"/>
+							da uomo di genio qual siete! quindici giorni di tempo e voi da <placeName ref="#MI">Milano</placeName> sarete
+							<lb xml:id="LL1.25_lb_1f_13" n="13" facs="#LL1.25_line_1fr_13"/>
+							a <placeName ref="#Paris">Parigi</placeName><pc type="comma">,</pc> lo vedrete<pc type="comma">,</pc> e ritornerete \a <placeName ref="#NA">Napoli</placeName>/ per <placeName ref="#Marseille">Marsiglia</placeName><pc type="comma">,</pc> ove non v’è più cho
+							<lb xml:id="LL1.25_lb_1f_14" n="14" facs="#LL1.25_line_1fr_14"/>
+							cholera;
+						</s>
+						<s type="sentence" n="s_08">
+							così ho consigliato a <persName ref="#FFlo">Florimo</persName><pc type="comma">,</pc> e chi sà se facendo la pace<pc type="comma">,</pc> ora
+							<lb xml:id="LL1.25_lb_1f_15" n="15" facs="#LL1.25_line_1fr_15"/>
+							che v’incontrerete o v’avrete incontrato<pc type="comma">,</pc> non v’unite insieme
+							<lb xml:id="LL1.25_lb_1f_16" n="16" facs="#LL1.25_line_1fr_16"/>
+							a scorrere l’italia per giungere sino a <placeName ref="#Paris">Parigi</placeName><pc type="dot">.</pc>
+						</s>
+						<s type="sentence" n="s_09">
+							Basta fate voi<pc type="comma">,</pc> e
+							<lb xml:id="LL1.25_lb_1f_17" n="17" facs="#LL1.25_line_1fr_17"/>
+							seguite la vostra ispirazione<pc type="dot">.</pc>
+						</s>
+						<s type="sentence" n="s_10">
+							Io ora mi trovo alle porte di
+							<lb xml:id="LL1.25_lb_1f_18" n="18" facs="#LL1.25_line_1fr_18"/>
+							<placeName ref="#Paris">Parigi</placeName><pc type="comma">,</pc> e voi dirigete le lettere –
+							<address>
+							  <addrLine><foreign xml:lang="fr">N: 19: bis rampe de pont</foreign></addrLine>
+							<lb xml:id="LL1.25_lb_1f_19" n="19" facs="#LL1.25_line_1fr_19"/>
+							  <addrLine><foreign xml:lang="fr">de <placeName ref="#NSS">Neuilly</placeName> à <placeName ref="#Put">Puteaux</placeName></foreign><pc type="dot">.</pc></addrLine>
+							</address>
+						</s>
+						<s type="sentence" n="s_11">
+						  Riguardo al <expan><abbr>v</abbr><ex resp="#FA #AZ">ost</ex><abbr>ro</abbr></expan> raccomandato <expan><abbr>Sig</abbr><ex resp="#FA #AZ">nor</ex><abbr>:</abbr></expan> <expan><abbr>M</abbr><ex resp="#FA #AZ">aest</ex><abbr>ro</abbr></expan>
+							<lb xml:id="LL1.25_lb_1f_20" n="20" facs="#LL1.25_line_1fr_20"/>
+							<persName ref="#LS">Somma</persName><ptr target="#LL1_25_note4"/><pc type="comma">,</pc> tanto <persName ref="#GR"> Rossini</persName>che io al passaggio che farà \da <placeName ref="#Paris">Parigi</placeName>/ <expan><abbr>M</abbr><ex resp="#FA #AZ">adam</ex><abbr>:e</abbr></expan> <persName ref="#MM">Malibran</persName>
+							<lb xml:id="LL1.25_lb_1f_21" n="21" facs="#LL1.25_line_1fr_21"/>
+							per portarsi a <placeName ref="#MI">Milano</placeName> glie lo raccomanderemo caldamente;
+						</s>
+						<s type="question" n="s_12">
+							ma sape
+							<lb xml:id="LL1.25_lb_1f_22" n="22" facs="#LL1.25_line_1fr_22"/>
+							te di già che questo povero giovine non è affatto piaciuto con un’<term subtype="music-term" ref="#opera">opera </term>
+							<lb xml:id="LL1.25_lb_1f_23" n="23" facs="#LL1.25_line_1fr_23"/>
+							che un mese fà diede a <placeName ref="#MI">Milano</placeName>?
+            			</s>
+						<s type="sentence" n="s_13">
+							 Basta<pc type="comma">,</pc> auguriamoci fortuna
+							<lb xml:id="LL1.25_lb_1f_24" n="24" facs="#LL1.25_line_1fr_24"/>
+							per la nuova che andrà a scrivere<pc type="dot">.</pc>
+						</s>
+						<s type="sentence" n="s_14">
+						  Mio caro amico<persName ref="#FS">amico</persName><pc type="comma">,</pc> io voglio sperare
+							<lb xml:id="LL1.25_lb_1f_25" n="25" facs="#LL1.25_line_1fr_25"/>
+							 che voi verrete a <placeName ref="#Paris">Parigi</placeName>: figuratevi<pc type="comma">,</pc> da <placeName ref="#MI">Milano</placeName> a <placeName ref="#Paris">Parigi</placeName> impiegherete al
+							<lb xml:id="LL1.25_lb_1f_26" n="26" facs="#LL1.25_line_1fr_26"/>
+							 più cinque giorni per la posta<pc type="comma">,</pc>
+							<lb xml:id="LL1.25_lb_1f_27" n="27" facs="#LL1.25_line_1fr_27"/>
+							 quindi a che privarmi del piacere di vedervi<pc type="comma">,</pc> e
+							<lb xml:id="LL1.25_lb_1f_28" n="28" facs="#LL1.25_line_1fr_28"/>
+							 voi di visitare questa capitale del mondo
+						</s>
+						<s type="sentence" n="s_15">
+               Venite dunque<pc type="comma">,</pc> e persuade
+							<lb xml:id="LL1.25_lb_1f_29" n="29" facs="#LL1.25_line_1fr_29"/>
+               tene il caro <persName ref="#GSan">Pepé</persName><ptr target="#LL1_25_note1"/><pc type="comma">,</pc> che da buon <term subtype="other-term" ref="#cunzaroti">cunziarotu</term><ptr target="#LL1_25_note2"/> troverà bene il mio desi
+							<lb xml:id="LL1.25_lb_1f_30" n="30" facs="#LL1.25_line_1fr_30"/>
+							derio<pc type="dot">.</pc>
+           			 </s>
+				   <s type="sentence" n="s_16">
+						  Mille cose a Pietromasi (?) ed a tutti gli amici nostri –
+							<lb xml:id="LL1.25_lb_1f_31" n="31" facs="#LL1.25_line_1fr_31"/>
+							viaggio facendo scrivetemi qualche volta<pc type="comma">,</pc>  voglio sapere l’impressione
+							<lb xml:id="LL1.25_lb_1f_32" n="32" facs="#LL1.25_line_1fr_32"/>
+							che vi farà qualche città d’Italia<pc type="comma">,</pc>  e se vi divertirà tal movimento<pc type="dot">.</pc>
+						</s>
+					</ab>
+					<closer>
+						<s type="sentence" n="s_17">
+ 							<lb xml:id="LL1.25_lb_1f_33" n="33" facs="#LL1.25_line_1fr_33"/>
+                Addio<pc type="comma">,</pc> <persName ref="#FS">mio caro</persName> – Ricevete i miei <expan><abbr>abb</abbr><ex resp="#FA #AZ">rac</ex><abbr>:ci</abbr></expan> fatene a <persName ref="#GSan">Pepé</persName> –
+ 						</s>
+
+				    <s type="sentence" n="s_18">
+							<lb xml:id="LL1.25_lb_1f_34" n="34" facs="#LL1.25_line_1fr_34"/>
+							<expan><abbr>V</abbr><ex resp="#FA #AZ">ost</ex><abbr>ro</abbr></expan><expan><abbr>Aff</abbr><ex resp="#FA #AZ">ezionatis</ex><abbr>smo</abbr></expan>
+							<lb xml:id="LL1.25_lb_1f_35" n="35" facs="#LL1.25_line_1fr_35"/>
+							<persName ref="VB">Bellini</persName>
+						</s>
+
+          </closer>
+				</div>
+			</div>
+		</body>
+		<back>
+<div type="bibliography">
+			<listBibl xml:id="LL1_25_bibliography">
+				<head>Bibliografia della lettera LL1.25</head>
+				<bibl xml:id="LL1_25_Amore">
+					<ref target="#Amore1894">
+						<bibl>
+							<author>Amore</author>
+							<date when="1894">1894</date>
+							<citedRange unit="page" from="359" to="359">359</citedRange>
+						</bibl>
+					</ref>
+				</bibl>
+				<bibl xml:id="LL1_25_Cambi">
+					<ref target="#Cambi1943">
+						<bibl>
+							<author>Cambi</author>
+							<date when="1943">1943</date>
+							<citedRange unit="page" from="550" to="551">550-551</citedRange>
+						</bibl>
+					</ref>
+				</bibl>
+				<bibl xml:id="LL1_25_Neri">
+					<ref target="#Neri2005">
+						<bibl>
+							<author>Neri</author>
+							<date when="2005">2005</date>
+							<citedRange unit="page" from="405" to="406">405-406</citedRange>
+						</bibl>
+					</ref>
+				</bibl>
+				<bibl xml:id="LL1_25_Seminara">
+					<ref target="#Seminara2017">
+						<bibl>
+							<author>Seminara</author>
+							<date when="2017">2017</date>
+							<citedRange unit="page" from="502" to="503" n="431">502-503</citedRange>
+						</bibl>
+					</ref>
+				</bibl>
+
+
+			</listBibl>
+		</div>
+		<div type="notes">
+			<div type="ann_notes">
+
+				<note xml:id="LL1_25_note1" type="generic" resp="#GS">
+					<p>
+						<persName ref="#VB" role="composer">Bellini</persName>si riferiva a <persName ref="#GSan">Giuseppe Santocanale</persName>, fratello di <persName ref="#FS" role="librettist">Filippo Santocanale</persName>.
+					</p>
+				</note>
+				<note xml:id="LL1_25_note2" type="generic" resp="#GS">
+					<p>
+					 Con il termine<term subtype="other-term" ref="#cunzaroti">«cunziarioti»</term>(da “cunzarìa”, ‘luogo in cui si conciano le pelli’) Bellini indicava il gruppo di giovani amici siciliani raccolti intorno a Filippo Santocanale, che si contrassegnava per il divertimento goliardico e il ricorso a un linguaggio ludicamente triviale.
+					</p>
+				</note>
+				<note xml:id="LL1_25_note3"  type="generic" resp="#GS">
+						<p>
+							 Il duetto tra Riccardo (baritono) e Giorgio (basso) «Il rival salvar tu devi» si concludeva con la cabaletta duetto «Suoni la tromba, e intrepido», che suscitò un travolgente entusiasmo sin dalla prova generale dei  <rs type="work">Puritani</rs>, (Théâtre Italien, 20 gennaio 1835); per questo <persName ref="#VB" role="composer">Bellini</persName>decise di anticipare la “Scena e aria d’Elvira” e di chiudere con il duetto l’atto II dell’opera.
+						</p>
+				</note>
+				<note xml:id="LL1_25_note4" source="#Seminara2017" resp="#GS" type="generic">
+					<bibl>
+						<citedRange unit="page" from="503" n="860">503</citedRange>
+					</bibl>
+					<p>
+						Si trattava di<persName ref="#LS">Luigi Somma</persName>  (Palermo, 1801 - Saint-Servan-sur Mer, 1870), che aveva composto una cantata in occasione della serata organizzata in onore di Bellini dall’Accademia Filarmonica di Palermo il 12 aprile 1832. Il 20 aprile 1835 era stata messa in scena al Teatro della Canobbiana di Milano con scarso successo l’opera Ildegonda e Rizzardo, composta da Somma su libretto di Giuseppe Sapio.
+					</p>
+				</note>
+
+			</div>
+		</div>
+
+
+		<div type="lists">
+			      <listPerson>
+							<head>Lista Persone</head>
+									<person xml:id="VB" sameAs="http://viaf.org/viaf/39560983">
+												<persName role="composer">
+														<ref target="http://data.rism.info/id/rismauthorities/pe11648 http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
+														<forename>Vincenzo</forename>
+														<forename>Salvatore</forename>
+														<forename>Carmelo</forename>
+														<forename>Francesco </forename>
+														 <surname>Bellini</surname>
+														 <addName type="alias">Il Cigno </addName>
+														 <roleName type="honorific">Cavaliere della Legione d'onore </roleName>
+												</persName>
+
+													 <birth>
+														<date when="1801-11-03">3 novembre 1801</date>
+														<placeName ref="#CT">
+															<settlement type="municipality">Catania </settlement>
+
+															<country key="IT">Italia </country>
+														</placeName>
+													 </birth>
+													 <death><date when="1835-09-23">23 settembre 1835</date>
+														<placeName ref="#Put">
+															<settlement type="municipality">Puteaux </settlement>
+															<settlement type="department" key="Paris">Paris </settlement>
+															<country key="FR">France </country>
+														</placeName>
+													 </death>
+									</person>
+
+
+									<person xml:id="FS">
+											<persName role="received">
+												<ref target="https://storia.camera.it/deputato/filippo-santocanale-1797"/>
+												<forename>Filippo</forename>
+												<surname>Santocanale </surname>
+											</persName>
+
+											 <birth>
+												<date when="1787">1787</date>
+												<placeName ref="#PA">
+												 <settlement type="municipality">Palermo </settlement>
+
+												 <country key="IT">Italia </country>
+												</placeName>
+											 </birth>
+											 <death><date when="1884">1884</date>
+												<placeName ref="#PA">
+												 <settlement type="municipality">Palermo </settlement>
+
+												 <country key="IT">Italia </country>
+												</placeName>
+											 </death>
+									</person>
+
+									<person xml:id="FFlo">
+											<persName role="unknown">
+											 <ref target="https://www.treccani.it/enciclopedia/francesco-florimo_(Dizionario-Biografico)/"/>
+											 <forename>Francesco </forename>
+											 <surname>Florimo </surname>
+											</persName>
+
+											 <birth>
+												<date when="1800-10-12">12 ottobre 1800 </date>
+												<settlement type="municipality">San Giorgio Morgeto </settlement>
+												<country key="IT">Italia </country>
+											 </birth>
+											 <death><date when="1888-12-18">18 dicembre 1888 </date>
+												<placeName ref="#NA">
+												 <settlement type="municipality">Napoli </settlement>
+
+												 <country key="IT">Italia </country>
+												</placeName>
+											 </death>
+									</person>
+
+									<person xml:id="LS">
+											<persName role="unknown">
+											 <ref target="https://rennes.catholique.fr/annuaire/services/musique-liturgique/patrimoine/331110-luigi-somma-1801-1869/"/>
+											 <forename>Luigi </forename>
+											 <surname>Somma </surname>
+											</persName>
+
+											 <birth>
+												<date when="1801-08-23">23 agosto 1801 </date>
+												<placeName ref="#PA">
+												 <settlement type="municipality">Palermo </settlement>
+
+												 <country key="IT">Italia </country>
+												</placeName>
+											 </birth>
+											 <death><date when="1869-10-16">16 ottobre 1869 </date>
+												<country key="FR">Francia </country>
+											 </death>
+									</person>
+
+									<person xml:id="MM">
+											<persName role="unknown">
+											 <ref target="https://it.wikipedia.org/wiki/Maria_Malibran"/>
+											 <forename>Maria </forename>
+											 <forename>Felicitas </forename>
+											 <forename>Garcia </forename>
+											 <forename>Sitches </forename>
+											 <surname>Malibran </surname>
+											</persName>
+
+											 <birth>
+												<date when="1808-03-24">24 marzo 1808 </date>
+												<placeName ref="#Paris">
+												 <settlement type="municipality">Parigi </settlement>
+												 <country key="FR">Francia </country>
+												</placeName>
+											 </birth>
+											 <death><date when="1836-09-23">9 settembre 1836 </date>
+												<country>Manchester </country>
+											 </death>
+									</person>
+
+									<person xml:id="GR">
+											<persName role="unknown">
+											 <ref target="https://www.treccani.it/enciclopedia/gioacchino-rossini/"/>
+											 <forename>Gioachino </forename>
+											 <surname>Rossini </surname>
+											</persName>
+
+											 <birth>
+												<date when="1792">1792 </date>
+												 <settlement type="municipality">Pesaro </settlement>
+												 <country key="IT">Italia </country>
+											 </birth>
+											 <death><date when="1868">1868 </date>
+												<placeName>
+												 <settlement type="municipality">Parigi </settlement>
+												 <country key="FR">Francia </country>
+												</placeName>
+											 </death>
+									</person>
+
+									<person xml:id="GSan">
+											<persName role="unknown">
+											 <forename>Giuseppe </forename>
+											 <surname>Santocanale </surname>
+											 <addName type="alias">Pepè </addName>
+											</persName>
+
+					 				</person>
+						</listPerson>
+						<listPlace>
+											<head>Lista dei luoghi</head>
+											<place xml:id="Paris">
+												<placeName ref="https://www.treccani.it/enciclopedia/parigi/">Parigi</placeName>
+												<country key="FR">Francia</country>
+											</place>
+											<place xml:id="London">
+												<placeName ref="https://www.treccani.it/enciclopedia/ricerca/londra/">Londra</placeName>
+												<country key="UK">Regno Unito</country>
+											</place>
+											<place xml:id="MI">
+												<placeName ref="https://www.treccani.it/enciclopedia/ricerca/milano/">Milano</placeName>
+												<country key="IT">Italia</country>
+											</place>
+											<place xml:id="NA">
+												<placeName ref="https://www.treccani.it/enciclopedia/ricerca/napoli/">Napoli</placeName>
+												<country key="IT">Italia</country>
+											</place>
+											<place xml:id="Marseille">
+												<placeName ref="https://www.treccani.it/enciclopedia/ricerca/marsiglia/">Marsiglia</placeName>
+												<country key="FR">Francia</country>
+											</place>
+											<place xml:id="NSS">
+												<placeName ref="https://www.treccani.it/enciclopedia/neuilly-sur-seine">Neuilly</placeName>
+												<country key="FR">Francia</country>
+											</place>
+											<place xml:id="Put">
+												<placeName ref="http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italiana)">Puteaux</placeName>
+												<district type="arrondissement">Nanterre</district>
+												<settlement type="city">Paris</settlement>
+												<country key="FR">France</country>
+												<note source="#Seminara2017" resp="#GS" ana="580">
+													<bibl>
+														<citedRange unit="page" from="346" to="346">346</citedRange>
+													</bibl>
+													<p>
+														Puteaux era un sobborgo di
+														<placeName ref="#Paris">Parigi</placeName>
+														, immerso nel verde e situato sulla
+														<foreign xml:lang="fr">rive gauche</foreign>
+														della Senna. Qui Bellini si stabilì dal 26 maggio al 1° novembre 1834 e di nuovo nel 1835 dall'11 maggio al 23 settembre (giorno della morte) nella residenza di Solomon Levy (o Lewis), un facoltoso ebreo inglese che verosimilmente aveva conosciuto nel 1830 a Milano. Levy, che negli anni 1834-35 si trattenne stabilmente a Parigi, apparteneva alla cerchia delle più ristrette frequentazioni francesi del musicista; risiedeva in un lussuoso appartamento in Boulevard des Capucines, ma possedeva anche la residenza di Puteaux.
+													</p>
+												</note>
+											</place>
+
+						</listPlace>
+    </div>
+   </back>
+	</text>
+</TEI>

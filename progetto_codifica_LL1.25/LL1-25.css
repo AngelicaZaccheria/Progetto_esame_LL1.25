@@ -1,0 +1,74 @@
+.riga {
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.reset-riga {
+background-image: none;
+}
+
+#immagini_lettera{
+width: 100%;
+float: left;
+margin-bottom: 24px;
+}
+
+#box_note{
+  display: inline-block;
+}
+
+body {
+  /*font-size: 113%; */
+  margin:0;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  background-color: DarkBlue;
+  color: white;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 150%;
+  color: blue;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: DarkBlue;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-left: 30px;
+  margin-right: 30px;
+}
